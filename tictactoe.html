@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Tic Tac Toe!</title>
+		<link href="tictactoe.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<div id="board-and-title">
+			<div id="titles">
+				<h1 class="capitalclass">TIC TAC TOE!!</h1>
+				<h2 class="score-class"><span id="p1score">0</span> to <span id="comscore">0</span></h2>
+				<form required>
+					<button type="button" id="resetter" onclick="ttt_init();">Reset!</button>
+				</form>
+				<h2 id="winner" class="win-class">IS THE WINNER!</h2>
+			</div>
+			<table id="t1">
+				<tr id="t1r1">
+					<td id="t1r1c1"><img id="i1" class="imgclass" src=""></img></td>
+					<td id="t1r1c2"><img id="i2" class="imgclass" src=""></img></td>
+					<td id="t1r1c3"><img id="i3" class="imgclass" src=""></img></td>
+				</tr>
+				<tr id="t1r2">
+					<td id="t1r2c1"><img id="i4" class="imgclass" src=""></img></td>
+					<td id="t1r2c2"><img id="i5" class="imgclass" src=""></img></td>
+					<td id="t1r2c3"><img id="i6" class="imgclass" src=""></img></td>
+				</tr>
+				<tr id="t1r3">
+					<td id="t1r3c1"><img id="i7" class="imgclass" src=""></img></td>
+					<td id="t1r3c2"><img id="i8" class="imgclass" src=""></img></td>
+					<td id="t1r3c3"><img id="i9" class="imgclass" src=""></img></td>
+				</tr>
+			</table>
+		</div>
+			
+		<script language="javascript" src="tictactoe.js"></script>
+	</body>
+</html>

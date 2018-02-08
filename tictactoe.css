@@ -1,0 +1,44 @@
+.imgclass {
+	background-color: #ffffff;
+}
+
+body {
+	background-color: #000000;
+}
+
+
+td {
+	border-color: #ff0000;
+	border-width: 20px;
+	border-spacing: 20px;
+}
+
+.capitalclass {
+	color: #00ff00;
+}
+
+.score-class {
+	color: #00FFff;
+}
+
+.win-class {
+	display: none;
+	color: #ff00ff;
+}
+
+#board-and-title {
+	margin-left: auto;
+	margin-right: auto;
+	width: 15em;
+	height: 20em;
+}
+
+#board-and-title > table {
+	float: left;
+	position: relative;
+	margin: 0 auto;
+}
+
+#titles {
+	text-align: center;
+}
